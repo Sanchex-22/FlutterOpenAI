@@ -1,0 +1,22 @@
+name: chatgpt_flutter_app_voice
+description: Chat IA con texto a voz y voz a texto.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  flutter_tts: ^3.6.3
+  speech_to_text: ^7.0.0
+  flutter_test:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

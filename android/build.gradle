@@ -1,0 +1,21 @@
+buildscript {
+    ext.kotlin_version = '1.7.10'  // o la versión que uses
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'  // o versión compatible
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.14'  // si usas Firebase, opcional
+        // La siguiente línea es para el plugin Flutter:
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10'  // ejemplo
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
